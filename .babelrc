@@ -1,0 +1,27 @@
+{
+	"plugins": [
+		[
+			"babel-plugin-relative-path-import",
+			{
+				"paths": [
+					{
+						"rootPathPrefix": "~", // `@` is the default so you can remove this if you want
+						"rootPathSuffix": "src/js"
+					}
+				]
+			}
+		]
+	]
+}
+
+//   // Now you can use the plugin like:
+//   import foo from '~/my-file';
+//   const bar = require('@/my-file');
+
+//   // Usually
+//   import ParentExample from '../../src/in/parent/example.js';
+//   const OtherExample = require('../../src/in/some/example.js');
+
+//   // With Babel-Root-Importer
+//   import ParentExample from '@parent/example.js';
+//   const OtherExample = require('@some/example.js');

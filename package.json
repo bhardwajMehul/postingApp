@@ -1,0 +1,38 @@
+{
+	"name": "postingapp",
+	"version": "0.0.1",
+	"description": "A web app which lets you helps you post on different social media platforms from a single place.",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "nodemon index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://bhardwajMehul@github.com/bhardwajMehul/postingApp.git"
+	},
+	"author": "Mehul Bhardwaj",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/bhardwajMehul/postingApp/issues"
+	},
+	"homepage": "https://github.com/bhardwajMehul/postingApp#readme",
+	"dependencies": {
+		"axios": "^0.19.2",
+		"body-parser": "^1.19.0",
+		"dotenv": "^8.2.0",
+		"express": "^4.17.1",
+		"express-react-views": "^0.11.0",
+		"facebook-sdk": "^0.3.3",
+		"mysql": "^2.18.1",
+		"passport": "^0.4.1",
+		"passport-facebook": "^3.0.0",
+		"react": "^16.13.1",
+		"react-dom": "^16.13.1",
+		"react-redux": "^7.2.1"
+	},
+	"devDependencies": {
+		"babel-plugin-relative-path-import": "^2.0.1",
+		"babel-plugin-transform-export-extensions": "^6.22.0"
+	}
+}
